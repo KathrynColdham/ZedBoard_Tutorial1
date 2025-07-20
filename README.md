@@ -1,6 +1,6 @@
 # ZedBoard_Tutorial1
 
-##LEDs and switches
+## LEDs and switches
 
 * Read_Switches.c = reads which switches were on and prints the result on the terminal
   
@@ -31,7 +31,7 @@ up. If the resulting value is false, no LEDs will light up.
 * Write_LED_or.c = same as above but with an or gate
   
   
-##Coincidence unit work
+## Coincidence unit work
 
 *4inputs_with_ANDgate.c = computes the output for 4 inputs going into an AND gate.
 

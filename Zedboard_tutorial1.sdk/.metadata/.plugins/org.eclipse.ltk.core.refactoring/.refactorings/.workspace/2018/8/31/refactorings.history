@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Write_LED_not&apos; to &apos;Write_LED_nand&apos;" description="Rename resource &apos;Write_LED_not&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Write_LED_not" name="Write_LED_nand" stamp="1533216276716" updateReferences="true"/>
+</session>

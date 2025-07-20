@@ -1,0 +1,25 @@
+13:59:22 **** Build of configuration Debug for project Make Desired LED blink ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_test_tut_1C.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Project2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+'Finished building: ../src/LED_test_tut_1C.c'
+' '
+'Building target: Make Desired LED blink.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Project2_bsp/ps7_cortexa9_0/lib -o "Make Desired LED blink.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Make Desired LED blink.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Make Desired LED blink.elf  |tee "Make Desired LED blink.elf.size"
+arm-none-eabi-size: 'Make': No such file
+arm-none-eabi-size: 'Desired': No such file
+arm-none-eabi-size: 'LED': No such file
+arm-none-eabi-size: 'blink.elf': No such file
+'Finished building: Make Desired LED blink.elf.size'
+' '
+
+13:59:23 Build Finished (took 784ms)
+

@@ -10,7 +10,7 @@ specify which LED configuration they want turned on, these LEDs would light up.
 * ReadSwitch_WriteLED.c = reads the switch configuration that was turned on and then
 lights up the corresponding LEDs
 
-* Write_LED_Addition.c = reads the switch configuration that is on in hexadecimal
+* [Write_LED_Addition.c](https://github.com/KathrynColdham/ZedBoard_Tutorial1/blob/09159f07987775ab375a9417b9294fe29ea94c9f/Zedboard_tutorial1.sdk/Write_LED_Addition/src/Write_LED_Addition.c) = reads the switch configuration that is on in hexadecimal
 format, computes the addition and displays the result using the LEDs in binary format
 
 * Write_LED_Multiplication.c = reads the switch configuration that is on in hexadecimal
